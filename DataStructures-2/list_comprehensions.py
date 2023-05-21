@@ -4,8 +4,12 @@
 
 import os
 print(os.scandir())
-l = [i for i in os.listdir("C:/Users/Samiksha.B/sam/Assignments/Assignment_3") if i.endswith("txt")]
-print(l)
+
+# path for the file
+path = "/DataStructures-2"
+
+string_list = [i for i in os.listdir(path) if i.endswith("txt")]
+print(string_list)
 
 # reading the text file
 
